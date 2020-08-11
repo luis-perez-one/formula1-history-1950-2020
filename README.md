@@ -8,7 +8,7 @@ Several modifications were made to the schema proposed by vopani:
     - `era_id` foreign key added on the `race` table
  - Inclusion of the boolean type column `season_last_round` on the `race` table to facilitate the analysis of the results at the end of seasons.
  - Various times provided in the format `H:M:S.f` or `M:S.f` where also included in milliseconds.
- - Diverse renames on columns and table to fit my tastes.
+ - Diverse renames on columns and tables to fit my tastes.
  
  The resulting Entity Relation diagram is shown as follows:
  ![ER diagram](https://raw.githubusercontent.com/luis-perez-one/formula1-history-1950-2020/master/sql-schema-mods/er_diagram.png)
