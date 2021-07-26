@@ -3,6 +3,7 @@
 
 This repository includes code to illustrate some concepts of data analysis and data science using the amazing data set provided by [Rohan Rao](https://en.wikipedia.org/wiki/Rohan_Rao) (aka. vopani) at [kaggle](https://www.kaggle.com/rohanrao/formula-1-world-championship-1950-2020/discussion/new).
 
+## Important note
 Several modifications were made to the schema proposed by vopani:
  - Inclusion of the [eras in F1 History](https://en.wikipedia.org/wiki/History_of_Formula_One) as a new analysis dimension.
     - `era_id` foreign key added on the `race` table
